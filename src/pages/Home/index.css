@@ -1,0 +1,48 @@
+.personal-picture {
+  width: 230px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 100px;
+  /* border: 5px solid rgb(255, 255, 255); */
+}
+
+.home-content {
+  /* font-family: 'Syne Mono', monospace; */
+  display: flex;
+  height: 85vh;
+  width: 100%;
+  gap: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  text-align: center;
+}
+
+.info h1 {
+  font-size: xx-large;
+  color: rgb(6, 222, 225);
+}
+
+.info p {
+  font-size: larger;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.icons a {
+  text-decoration: none;
+  color: white;
+}
+
+.icons a:hover {
+  color: rgb(6, 222, 225);
+}
+
+.icons .fa-brands {
+  font-size: xx-large;
+}
