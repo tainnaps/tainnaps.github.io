@@ -1,0 +1,26 @@
+.technologies-section {
+  /* margin-top: 15px;
+  margin-bottom: 70px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 20%;
+}
+
+.technologies {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-icons {
+  font-size: 60px;
+}
+
+.tech-icons:hover {
+  color: rgb(6, 222, 225);
+}
