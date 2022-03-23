@@ -8,6 +8,8 @@ function NavBar() {
       <Link className="home-link" to="/">{ '<Tainá Santana>' }</Link>
       <Link to="/about">About</Link>
       <Link to="/projects">Projects</Link>
+      <Link to="/technologies">Technologies</Link>
+      <Link to="/contact">Contact</Link>
       <a
         href="https://github.com/tainnaps"
         target="_blank"
