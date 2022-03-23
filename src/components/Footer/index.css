@@ -1,0 +1,8 @@
+.page-footer {
+  border-top: 1px solid rgb(255, 255, 255);
+  height: 4vh;
+}
+
+.page-footer p {
+  text-align: center;
+}

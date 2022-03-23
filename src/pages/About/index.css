@@ -1,0 +1,26 @@
+.about-content {
+  display: flex;
+  /* flex-direction: column; */
+  /* gap: 100px; */
+  height: 77vh;
+  width: 100%;
+  /* gap: 50px; */
+  justify-content: space-around;
+  align-items: center;
+}
+
+.description {
+  width: 35%;
+}
+
+.about-content h1 {
+  font-size: xx-large;
+  color: rgb(6, 222, 225);
+  text-align: center;
+}
+
+.description p {
+  font-size: larger;
+  line-height: 30px;
+  text-align: justify;
+}
