@@ -17,6 +17,10 @@
   color: rgb(6, 222, 225);
 }
 
+.nav-bar a:focus {
+  color: rgb(6, 222, 225);
+}
+
 .home-link {
   margin-right: 15%;
 }
