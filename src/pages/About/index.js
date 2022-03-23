@@ -1,7 +1,6 @@
 import React from 'react';
 import Footer from '../../components/Footer';
 import PersonalPicture from '../../components/PersonalPicture';
-import Technologies from '../../components/Technologies';
 import './index.css';
 
 function About() {
@@ -19,7 +18,6 @@ function About() {
           </p>
         </section>
         <PersonalPicture />
-        <Technologies />
       </main>
       <Footer />
     </>

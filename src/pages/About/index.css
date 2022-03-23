@@ -4,13 +4,13 @@
   /* gap: 100px; */
   height: 77vh;
   width: 100%;
-  /* gap: 50px; */
-  justify-content: space-around;
+  gap: 200px;
+  justify-content: center;
   align-items: center;
 }
 
 .description {
-  width: 35%;
+  width: 40%;
 }
 
 .about-content h1 {
