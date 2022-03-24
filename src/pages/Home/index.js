@@ -1,9 +1,11 @@
 import React from 'react';
-import Footer from '../../components/Footer';
+import { useHistory } from 'react-router-dom';
 import PersonalPicture from '../../components/PersonalPicture';
 import './index.css';
 
 function Home() {
+  const history = useHistory();
+
   return (
     <>
       <main className="home-content">
@@ -26,10 +28,16 @@ function Home() {
               <i className="fa-brands fa-github"></i>
             </a>
           </section>
+          <button
+            className="project-btn"
+            type="button"
+            onClick={ () => history.push('/projects') }
+          >
+            Projects
+          </button>
         </section>
         <PersonalPicture />
       </main>
-      <Footer />
     </>
   );
 }

@@ -1,11 +1,26 @@
 .home-content {
-  /* font-family: 'Syne Mono', monospace; */
   display: flex;
-  height: 77vh;
+  height: 82vh;
   width: 100%;
   gap: 200px;
   justify-content: center;
   align-items: center;
+}
+
+.project-btn {
+  color: rgb(6, 222, 225);
+  font-size: medium;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background: none;
+  border: 1px solid rgb(6, 222, 225);
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+.project-btn:hover {
+  background-color: rgb(6, 222, 225);
+  color: rgb(22, 22, 22);
 }
 
 .info {
@@ -24,7 +39,8 @@
 .icons {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 23px;
+  margin-top: 35px;
 }
 
 .icons a {
@@ -37,5 +53,5 @@
 }
 
 .icons .fa-brands {
-  font-size: xx-large;
+  font-size: 43px;
 }
