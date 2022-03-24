@@ -1,8 +1,6 @@
 .about-content {
   display: flex;
-  /* flex-direction: column; */
-  /* gap: 100px; */
-  height: 77vh;
+  height: 82vh;
   width: 100%;
   gap: 200px;
   justify-content: center;
