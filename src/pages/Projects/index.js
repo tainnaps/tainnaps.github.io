@@ -1,8 +1,11 @@
 import React from 'react';
+import './index.css';
 
 function Projects() {
   return (
-    <div>In progress</div>
+    <main className="projects">
+      <h1>In progress</h1>
+    </main>
   );
 }
 
