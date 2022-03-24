@@ -1,8 +1,11 @@
 import React from 'react';
+import './index.css';
 
 function Contact() {
   return (
-    <div>In progress</div>
+    <main className="contact-content">
+      <h1>In progress</h1>
+    </main>
   );
 }
 
