@@ -6,6 +6,7 @@ import About from './pages/About';
 import NavBar from './components/NavBar';
 import Technologies from './pages/Technologies';
 import Contact from './pages/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/technologies" component={ Technologies } />
         <Route path="/contact" component={ Contact } />
       </Switch>
+      <Footer />
     </div>
   );
 }
