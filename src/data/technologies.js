@@ -39,14 +39,14 @@ const technologies = [
     name: 'Express',
     imgSrc: 'https://freepikpsd.com/file/2019/10/express-js-png-5-Transparent-Images.png',
   },
-  {
-    name: 'Mocha',
-    imgSrc: 'https://cldup.com/xFVFxOioAU.svg',
-  },
-  {
-    name: 'Chai',
-    imgSrc: 'https://avatars.githubusercontent.com/u/1515293?s=280&v=4',
-  },
+  // {
+  //   name: 'Mocha',
+  //   imgSrc: 'https://cldup.com/xFVFxOioAU.svg',
+  // },
+  // {
+  //   name: 'Chai',
+  //   imgSrc: 'https://avatars.githubusercontent.com/u/1515293?s=280&v=4',
+  // },
 ];
 
 export default technologies;
