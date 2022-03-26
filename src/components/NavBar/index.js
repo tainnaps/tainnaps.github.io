@@ -1,15 +1,39 @@
 import React from 'react';
 import './index.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function NavBar() {
   return (
     <nav className="nav-bar">
-      <Link className="home-link" to="/">{ '<Tainá Santana>' }</Link>
-      <Link to="/about">About</Link>
-      <Link to="/projects">Projects</Link>
-      <Link to="/technologies">Technologies</Link>
-      <Link to="/contact">Contact</Link>
+      <NavLink
+        exact
+        activeClassName="selected-link"
+        className="home-link"
+        to="/"
+      >
+        { '<Tainá Santana>' }
+      </NavLink>
+      <NavLink
+        exact
+        activeClassName="selected-link"
+        to="/about"
+      >
+        About
+      </NavLink>
+      <NavLink
+        exact
+        activeClassName="selected-link"
+        to="/projects"
+      >
+        Projects
+      </NavLink>
+      <NavLink
+        exact
+        activeClassName="selected-link"
+        to="/contact"
+      >
+        Contact
+      </NavLink>
       <a
         href="https://github.com/tainnaps"
         target="_blank"
