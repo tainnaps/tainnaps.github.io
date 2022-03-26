@@ -7,8 +7,27 @@
   align-items: center;
 }
 
+.about-title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.about-title hr {
+  width: 50%;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+}
+
 .description {
-  width: 40%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
 }
 
 .about-content h1 {
@@ -18,7 +37,7 @@
 }
 
 .description p {
-  font-size: larger;
+  font-size: large;
   line-height: 30px;
   text-align: justify;
 }

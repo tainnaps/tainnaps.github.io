@@ -1,13 +1,16 @@
 import React from 'react';
-import PersonalPicture from '../../components/PersonalPicture';
+// import PersonalPicture from '../../components/PersonalPicture';
 import './index.css';
 
 function About() {
   return (
     <>
       <main className="about-content">
-        <section className="description">
+        <section className="about-title">
           <h1>About Me</h1>
+          <hr />
+        </section>
+        <section className="description">
           <p>
             Hello! I am Tainá, a brazilian Web Software Developer.
             My journey with programming has began throught electronics, when I used to write programs to microcontrollers using Assembly and C programming languages.
@@ -20,7 +23,7 @@ function About() {
             Feel free to see the projects I've done and contact me. Have a nice time!
           </p>
         </section>
-        <PersonalPicture />
+        {/* <PersonalPicture /> */ }
       </main>
     </>
   );
