@@ -1,8 +1,71 @@
-.projects {
+.projects-content {
+  padding-top: 80px;
   display: flex;
   height: 82vh;
-  width: 100%;
+  /* width: 100%; */
+  justify-content: space-around;
+  align-items: flex-start;
+  /* color: rgb(6, 222, 225); */
+}
+
+.projects-content .right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.projects-content .left {
+  width: 50%;
+}
+
+.projects-title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
   justify-content: center;
-  align-items: center;
+}
+
+.projects-title hr {
+  width: 18%;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+}
+
+.projects-title h1 {
+  font-size: xx-large;
   color: rgb(6, 222, 225);
+  /* text-align: center; */
+}
+
+.projects-search {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.projects-search p {
+  font-size: larger;
+  font-style: italic;
+}
+
+.tech-filter {
+  /* border: 1px solid white; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px 40px;
+}
+
+.tech-label {
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 7px;
+  width: 35%;
 }
