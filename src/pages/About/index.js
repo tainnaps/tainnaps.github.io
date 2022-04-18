@@ -20,7 +20,7 @@ function About() {
             I am currently studying at Trybe and improving myself to develop applications that will be useful to other people.
           </p>
           <p>
-            Feel free to see the projects I've done and contact me. Have a nice time!
+            Feel free to see the projects I have done and contact me. Have a nice time!
           </p>
         </section>
         {/* <PersonalPicture /> */ }

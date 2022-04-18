@@ -1,4 +1,4 @@
-import './App.css';
+import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
@@ -7,6 +7,8 @@ import NavBar from './components/NavBar';
 // import Technologies from './pages/Technologies';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import './App.css';
+
 
 function App() {
   return (
