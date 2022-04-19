@@ -1,11 +1,52 @@
 const projects = [
   {
     name: 'To Do List',
-    imgSrc: 'https://64.media.tumblr.com/ad99ca94758999b3c31ef5c4502479da/688d378c08c29ab4-97/s2048x3072/cf24fdadc8ac7aac9534043e4fc44dd0cde2b427.png',
+    image: 'https://64.media.tumblr.com/0e429f0f5d975d9e7a096573fd6268a7/19614456a0d6112e-a1/s2048x3072/cc29eece4db8b6341fe8e056f3479de40ee5f6f0.pnj',
     application: 'https://tainnaps.github.io/to-do-list/',
     repository: 'https://github.com/tainnaps/to-do-list',
-    description: 'This is a simple To Do List application where the user can insert, mark as completed, move and delete tasks. Furthermore, it is possible to save and delete the whole list or delete only the completed tasks.',
-  }
+    description: 'Web application to add, mark as completed, save and delete tasks.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+  },
+  {
+    name: 'Project',
+    image: 'https://64.media.tumblr.com/79491ac76aa4b35047a1765299121d4b/1ea05584c9831cac-43/s2048x3072/e59aebb5c1716f74e2cc15b154adcd05646d0ebf.pnj',
+    application: 'https://github.com/tainnaps/',
+    repository: 'https://github.com/tainnaps/',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+  },
+  {
+    name: 'Project',
+    image: 'https://64.media.tumblr.com/79491ac76aa4b35047a1765299121d4b/1ea05584c9831cac-43/s2048x3072/e59aebb5c1716f74e2cc15b154adcd05646d0ebf.pnj',
+    application: 'https://github.com/tainnaps/',
+    repository: 'https://github.com/tainnaps/',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+  },
+  {
+    name: 'Project',
+    image: 'https://64.media.tumblr.com/79491ac76aa4b35047a1765299121d4b/1ea05584c9831cac-43/s2048x3072/e59aebb5c1716f74e2cc15b154adcd05646d0ebf.pnj',
+    application: 'https://github.com/tainnaps/',
+    repository: 'https://github.com/tainnaps/',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+  },
+  {
+    name: 'Project',
+    image: 'https://64.media.tumblr.com/79491ac76aa4b35047a1765299121d4b/1ea05584c9831cac-43/s2048x3072/e59aebb5c1716f74e2cc15b154adcd05646d0ebf.pnj',
+    application: 'https://github.com/tainnaps/',
+    repository: 'https://github.com/tainnaps/',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+  },
+  {
+    name: 'Project',
+    image: 'https://64.media.tumblr.com/79491ac76aa4b35047a1765299121d4b/1ea05584c9831cac-43/s2048x3072/e59aebb5c1716f74e2cc15b154adcd05646d0ebf.pnj',
+    application: 'https://github.com/tainnaps/',
+    repository: 'https://github.com/tainnaps/',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+  },
 ];
 
 export default projects;
