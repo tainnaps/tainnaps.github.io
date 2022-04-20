@@ -12,7 +12,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <>
       <NavBar />
       <Switch>
         <Route exact path="/" component={ Home } />
@@ -22,7 +22,7 @@ function App() {
         <Route exact path="/contact" component={ Contact } />
       </Switch>
       <Footer />
-    </div>
+    </>
   );
 }
 
