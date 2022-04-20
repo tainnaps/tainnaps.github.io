@@ -1,0 +1,20 @@
+.page-title {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.page-title hr {
+  width: 50%;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+}
+
+.page-title h1 {
+  font-size: xx-large;
+  color: rgb(6, 222, 225);
+  /* text-align: center; */
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import PageTitle from '../../components/PageTitle';
 // import PersonalPicture from '../../components/PersonalPicture';
 import './index.css';
 
@@ -6,9 +7,8 @@ function About() {
   return (
     <>
       <main className="about-content">
-        <section className="about-title">
-          <h1>About Me</h1>
-          <hr />
+        <section className="title-circle">
+          <PageTitle title="About Me" />
         </section>
         <section className="description">
           <p>
