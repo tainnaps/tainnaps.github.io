@@ -1,9 +1,22 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import PropTypes from 'prop-types';
+import TechFilterContext from '../../context/TechFilterContext';
 import './index.css';
 
 function TechCheckbox({ name }) {
-  const [checkedStatus, setCheckedStatus] = useState(false);
+  const [isChecked, setIsChecked] = useState(false);
+  const { addTechFilter, removeTechFilter } = useContext(TechFilterContext);
+
+  const handleChange = ({ target }) => {
+    const { checked, name } = target;
+
+    setIsChecked(checked);
+
+    checked
+      ? addTechFilter(name)
+      : removeTechFilter(name);
+  };
+
   return (
     <>
       <label
@@ -15,8 +28,8 @@ function TechCheckbox({ name }) {
           type="checkbox"
           id={ name }
           name={ name }
-          checked={ checkedStatus }
-          onChange={ () => setCheckedStatus(!checkedStatus) }
+          checked={ isChecked }
+          onChange={ handleChange }
         />
         { name }
       </label>
