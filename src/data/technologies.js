@@ -16,6 +16,14 @@ const technologies = [
     imgSrc: 'https://symbols.getvecta.com/stencil_25/40_jest.5fde12ec22.png',
   },
   {
+    name: 'Mocha/Chai',
+    imgSrc: 'https://cldup.com/xFVFxOioAU.svg',
+  },
+  {
+    name: 'Sinon',
+    imgSrc: 'https://avatars.githubusercontent.com/u/1515293?s=280&v=4',
+  },
+  {
     name: 'React',
     imgSrc: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
   },
@@ -40,12 +48,24 @@ const technologies = [
     imgSrc: 'https://freepikpsd.com/file/2019/10/express-js-png-5-Transparent-Images.png',
   },
   // {
-  //   name: 'Mocha',
-  //   imgSrc: 'https://cldup.com/xFVFxOioAU.svg',
+  //   name: 'Heroku',
+  //   imgSrc: 'https://freepikpsd.com/file/2019/10/express-js-png-5-Transparent-Images.png',
   // },
   // {
-  //   name: 'Chai',
-  //   imgSrc: 'https://avatars.githubusercontent.com/u/1515293?s=280&v=4',
+  //   name: 'TypeScript',
+  //   imgSrc: 'https://freepikpsd.com/file/2019/10/express-js-png-5-Transparent-Images.png',
+  // },
+  // {
+  //   name: 'Sequelize',
+  //   imgSrc: 'https://freepikpsd.com/file/2019/10/express-js-png-5-Transparent-Images.png',
+  // },
+  // {
+  //   name: 'MongoDB',
+  //   imgSrc: 'https://freepikpsd.com/file/2019/10/express-js-png-5-Transparent-Images.png',
+  // },
+  // {
+  //   name: 'Python',
+  //   imgSrc: 'https://freepikpsd.com/file/2019/10/express-js-png-5-Transparent-Images.png',
   // },
 ];
 
