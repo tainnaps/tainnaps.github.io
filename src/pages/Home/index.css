@@ -2,58 +2,47 @@
   display: flex;
   height: 82vh;
   width: 100%;
-  gap: 200px;
+  gap: 160px;
   justify-content: center;
   align-items: center;
 }
 
-.project-btn {
-  color: rgb(6, 222, 225);
-  font-size: medium;
-  padding: 9px 12px;
-  border-radius: 4px;
-  background: none;
-  border: 1px solid rgb(6, 222, 225);
-  cursor: pointer;
-}
-
-.project-btn:hover {
-  background-color: rgb(6, 222, 225);
-  color: rgb(22, 22, 22);
-}
-
-.info {
+.personal-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 25px;
+  gap: 30px;
 }
 
-.info h1 {
+.personal-info h1 {
   font-size: xx-large;
   color: rgb(6, 222, 225);
 }
 
-.info p {
-  font-size: larger;
+.personal-info p {
+  font-size: 23px;
 }
 
-.icons {
+.media-icons {
   display: flex;
   justify-content: center;
-  gap: 23px;
+  gap: 32px;
 }
 
-.icons a {
+.media-icons a {
   text-decoration: none;
   color: white;
+  font-size: 45px;
+  transition: 0.3s;
 }
 
-.icons a:hover {
+.media-icons a:hover {
   color: rgb(6, 222, 225);
 }
 
-.icons .fa-brands {
-  font-size: 43px;
+.personal-picture {
+  width: 230px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 100px;
 }
