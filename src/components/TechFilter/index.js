@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from 'react';
 import TechCheckbox from '../../components/TechCheckbox';
 import TechFilterContext from '../../context/TechFilterContext';
 import technologies from '../../data/technologies';
+import './index.css';
 
 function TechFilter() {
   const { resetTechFilter } = useContext(TechFilterContext);
