@@ -26,6 +26,7 @@ function TechCheckbox({ name }) {
       >
         <input
           type="checkbox"
+          className="tech-checkbox"
           id={ name }
           name={ name }
           checked={ isChecked }
