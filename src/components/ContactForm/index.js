@@ -65,7 +65,7 @@ function ContactForm() {
       <Button
         type="submit"
         handleClick={ handleButtonClick }
-        content="Send email"
+        content="Submit"
       />
     </form>
   );

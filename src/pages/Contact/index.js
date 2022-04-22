@@ -32,7 +32,7 @@ function Contact() {
         </section>
       </section>
       <section id="contact-form-section">
-        <Title title="Email Form" />
+        <Title title="Email" />
         <ContactForm />
       </section>
     </main>
