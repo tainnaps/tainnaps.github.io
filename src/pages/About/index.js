@@ -1,15 +1,12 @@
 import React from 'react';
-import PageTitle from '../../components/PageTitle';
-// import PersonalPicture from '../../components/PersonalPicture';
+import Title from '../../components/Title';
 import './index.css';
 
 function About() {
   return (
     <>
       <main className="about-content">
-        <section className="title-circle">
-          <PageTitle title="About Me" />
-        </section>
+        <Title title="About Me" />
         <section className="description">
           <p>
             Hello! I am Tainá, a brazilian Web Software Developer.
@@ -23,7 +20,6 @@ function About() {
             Feel free to see the projects I have done and contact me. Have a nice time!
           </p>
         </section>
-        {/* <PersonalPicture /> */ }
       </main>
     </>
   );

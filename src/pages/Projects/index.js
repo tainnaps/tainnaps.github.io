@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from 'react';
 import ProjectCard from '../../components/ProjectCard';
-import PageTitle from '../../components/PageTitle';
+import Title from '../../components/Title';
 import TechFilter from '../../components/TechFilter';
 import projectsData from '../../data/projects';
 import TechFilterContext from '../../context/TechFilterContext';
@@ -40,7 +40,7 @@ function Projects() {
   return (
     <main className="projects-content">
       <section className="right">
-        <PageTitle title="Projects" />
+        <Title title="Projects" />
         <section className="projects-search">
           <p>Filter projects by technologies</p>
           <TechFilter />
