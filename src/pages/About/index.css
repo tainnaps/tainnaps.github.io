@@ -7,30 +7,6 @@
   align-items: center;
 }
 
-/* .title-circle {
-  border: 1.5px solid white;
-  border-radius: 100%;
-  width: 220px;
-  height: 220px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-/* .about-title {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: flex-start;
-  justify-content: center;
-}
-
-.about-title hr {
-  width: 50%;
-  height: 3px;
-  background-color: rgb(255, 255, 255);
-} */
-
 .description {
   width: 45%;
   display: flex;
@@ -39,12 +15,6 @@
   align-items: flex-start;
   gap: 15px;
 }
-
-/* .about-content h1 {
-  font-size: xx-large;
-  color: rgb(6, 222, 225);
-  text-align: center;
-} */
 
 .description p {
   font-size: large;
