@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Icon from '../Icon';
 import './index.css';
 
 function ProjectCard({ name, image, description, repository, application }) {
@@ -10,21 +11,15 @@ function ProjectCard({ name, image, description, repository, application }) {
         <div className="project-info">
           <h3>{ name }</h3>
           <p>{ description }</p>
-          <div>
-            <a
+          <div className="project-icons">
+            <Icon
               href={ repository }
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa-brands fa-github"></i>
-            </a>
-            <a
+              className="fa-brands fa-github"
+            />
+            <Icon
               href={ application }
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa-brands fa-chrome"></i>
-            </a>
+              className="fa-brands fa-chrome"
+            />
           </div>
         </div>
       </div>
