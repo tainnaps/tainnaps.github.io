@@ -3,6 +3,7 @@
   background-color: rgb(40, 40, 40);
   border-radius: 12px;
   opacity: 0.75;
+  transition: 0.3s;
   /* box-shadow: 5px 5px 5px rgb(62, 62, 62); */
 }
 
@@ -34,13 +35,13 @@
   text-align: justify;
 }
 
-.project-info a {
+.project-icons a {
   padding: 0 10px;
   font-size: 1.56rem;
   color: rgb(6, 222, 225);
 }
 
-.project-info a:hover {
+.project-icons a:hover {
   color: rgb(255, 255, 255);
 }
 
