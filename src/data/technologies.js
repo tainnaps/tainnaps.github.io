@@ -8,6 +8,14 @@ const technologies = [
     imgSrc: 'https://logospng.org/download/css-3/logo-css-3-2048.png',
   },
   {
+    name: 'React',
+    imgSrc: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
+  },
+  {
+    name: 'Redux',
+    imgSrc: 'https://img.icons8.com/color/480/redux.png',
+  },
+  {
     name: 'JavaScript',
     imgSrc: 'https://logospng.org/download/javascript/logo-javascript-icon-1024.png',
   },
@@ -22,14 +30,6 @@ const technologies = [
   {
     name: 'Sinon',
     imgSrc: 'https://avatars.githubusercontent.com/u/1515293?s=280&v=4',
-  },
-  {
-    name: 'React',
-    imgSrc: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
-  },
-  {
-    name: 'Redux',
-    imgSrc: 'https://img.icons8.com/color/480/redux.png',
   },
   {
     name: 'Docker',
