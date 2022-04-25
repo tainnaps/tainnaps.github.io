@@ -19,7 +19,7 @@ function Contact() {
                 className="fa-brands fa-telegram"
               />
               <Icon
-                href="#contact-form-section"
+                href="#contact-form"
                 blankTarget={ false }
                 className="fa-solid fa-envelope"
               />
@@ -31,7 +31,7 @@ function Contact() {
           </section>
         </section>
       </section>
-      <section id="contact-form-section">
+      <section id="contact-form">
         <Title title="Email" />
         <ContactForm />
       </section>
