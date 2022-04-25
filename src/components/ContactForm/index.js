@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Button from '../Button';
 import './index.css';
 
 function ContactForm() {
@@ -22,16 +21,9 @@ function ContactForm() {
     setMessage(value);
   };
 
-  const handleButtonClick = () => {
-    // setName('');
-    // setEmail('');
-    // setMessage('');
-    console.log('submitted');
-  };
-
   return (
     <form
-      id="contact-form"
+      id="form"
       action="https://formsubmit.io/send/tainnaps@gmail.com"
       method="POST"
     >
@@ -42,6 +34,7 @@ function ContactForm() {
         id="name"
         placeholder="Name"
         value={ name }
+        required
         onChange={ handleNameChange }
       />
       <input
@@ -51,6 +44,7 @@ function ContactForm() {
         id="email"
         placeholder="Email"
         value={ email }
+        required
         onChange={ handleEmailChange }
       />
       <textarea
@@ -59,14 +53,16 @@ function ContactForm() {
         id="message"
         placeholder="Message"
         value={ message }
+        required
         onChange={ handleMessageChange }
         rows="5"
       />
-      <Button
+      <button
         type="submit"
-        handleClick={ handleButtonClick }
-        content="Submit"
-      />
+        className="custom-button"
+      >
+        Send email
+      </button>
     </form>
   );
 }
