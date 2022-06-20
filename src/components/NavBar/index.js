@@ -11,7 +11,7 @@ function NavBar() {
         className="home-link"
         to="/"
       >
-        { '<Tainá Santana>' }
+        { '<Home>' }
       </NavLink>
       <NavLink
         exact
