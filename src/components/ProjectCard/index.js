@@ -16,10 +16,14 @@ function ProjectCard({ name, image, description, repository, application }) {
               href={ repository }
               className="fa-brands fa-github"
             />
-            <Icon
-              href={ application }
-              className="fa-brands fa-chrome"
-            />
+            {
+              application
+                ? <Icon
+                    href={ application }
+                    className="fa-brands fa-chrome"
+                  />
+                : null
+            }
           </div>
         </div>
       </div>
