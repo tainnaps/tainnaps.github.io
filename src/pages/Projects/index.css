@@ -14,7 +14,7 @@
   gap: 40px;
   flex-direction: column;
   position: sticky;
-  top: 12vh;
+  top: 5vh;
 }
 
 .projects-content .left {
