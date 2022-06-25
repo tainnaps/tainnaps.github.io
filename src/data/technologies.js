@@ -14,9 +14,9 @@ const technologies = [
   {
     name: 'JavaScript',
   },
-  // {
-  //   name: 'Jest',
-  // },
+  {
+    name: 'Jest',
+  },
   {
     name: 'Mocha/Chai',
   },
