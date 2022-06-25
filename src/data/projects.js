@@ -1,11 +1,11 @@
 const projects = [
   {
-    name: 'To Do List',
-    image: 'https://64.media.tumblr.com/0e429f0f5d975d9e7a096573fd6268a7/19614456a0d6112e-a1/s2048x3072/cc29eece4db8b6341fe8e056f3479de40ee5f6f0.pnj',
-    application: 'https://tainnaps.github.io/to-do-list/',
-    repository: 'https://github.com/tainnaps/to-do-list',
-    description: 'Web application to add, mark as completed, save and delete tasks.',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
+    name: 'Solar System',
+    image: 'https://64.media.tumblr.com/01a5d14dc7e57b76d3cb18a4a029f991/106ec815427d573a-05/s2048x3072/032eacb5650affa5f5ec9027b1e555136383c3b9.pnj',
+    application: 'https://tainnaps.github.io/solar-system/',
+    repository: 'https://github.com/tainnaps/solar-system',
+    description: 'Landing page with solar system planets and missions to space.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React'],
   },
   {
     name: 'Playing With Numbers',
@@ -55,6 +55,14 @@ const projects = [
     repository: 'https://github.com/tainnaps/trybe-smith',
     description: 'API to create, read, update and delete itens of a medieval store.',
     technologies: ['Express', 'Node', 'TypeScript', 'MySQL'],
+  },
+  {
+    name: 'To Do List',
+    image: 'https://64.media.tumblr.com/0e429f0f5d975d9e7a096573fd6268a7/19614456a0d6112e-a1/s2048x3072/cc29eece4db8b6341fe8e056f3479de40ee5f6f0.pnj',
+    application: 'https://tainnaps.github.io/to-do-list/',
+    repository: 'https://github.com/tainnaps/to-do-list',
+    description: 'Web application to add, mark as completed, save and delete tasks.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
   },
 ];
 
