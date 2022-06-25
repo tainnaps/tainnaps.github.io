@@ -14,7 +14,7 @@ function Home() {
     <main className="home-content">
       <section className="personal-info">
         <h1>Tainá Santana</h1>
-        <p>Full Stack Software Developer</p>
+        <p>Web Software Developer</p>
         <section className="media-icons">
           <Icon
             href="https://www.linkedin.com/in/tainnaps/"
