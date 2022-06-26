@@ -22,13 +22,6 @@ const projects = [
     technologies: ['Express', 'Node', 'TypeScript', 'MySQL'],
   },
   {
-    name: 'One For All',
-    image: 'https://64.media.tumblr.com/f110794d1b0c32636ffaa952cf5846ca/d5d0d3281b708a05-4f/s1280x1920/5e58d73478599b7d369db62daab775aad969a4b6.pnj',
-    repository: 'https://github.com/tainnaps/one-for-all',
-    description: 'Project developed to model and consult a SQL database.',
-    technologies: ['MySQL'],
-  },
-  {
     name: 'Talker Manager',
     image: 'https://64.media.tumblr.com/d4e38cb69a566de5d2c8c293be242736/82317a6cd3422b07-a0/s2048x3072/9d071eee7c1f30f210a7d0ae455997c6a318f76d.jpg',
     repository: 'https://github.com/tainnaps/talker-manager',
@@ -36,11 +29,26 @@ const projects = [
     technologies: ['Express', 'Node', 'JavaScript'],
   },
   {
+    name: 'Kawaii Trunfo',
+    image: 'https://64.media.tumblr.com/7cf05fb611da3b0247e1cb61514fff6e/a668aada89668726-cb/s2048x3072/2723ae6b72e1b7f474a04ca911c52eaed062b222.pnj',
+    application: 'https://tainnaps.github.io/kawaii-trunfo/',
+    repository: 'https://github.com/tainnaps/kawaii-trunfo',
+    description: 'Web page where you can create cute cards or delete them.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React'],
+  },
+  {
     name: 'Store Manager',
     image: 'https://64.media.tumblr.com/7c71d5044d3505e696c83fd62fe2a85c/82317a6cd3422b07-ca/s2048x3072/bd33771f9b7b13ed9cc2809a5d05d77aa5d6f595.pnj',
     repository: 'https://github.com/tainnaps/store-manager',
     description: 'API to create, read, update and delete products and sales.',
     technologies: ['Express', 'Node', 'JavaScript', 'MySQL', 'Mocha/Chai', 'Sinon'],
+  },
+  {
+    name: 'One For All',
+    image: 'https://64.media.tumblr.com/f110794d1b0c32636ffaa952cf5846ca/d5d0d3281b708a05-4f/s1280x1920/5e58d73478599b7d369db62daab775aad969a4b6.pnj',
+    repository: 'https://github.com/tainnaps/one-for-all',
+    description: 'Project developed to model and consult a SQL database.',
+    technologies: ['MySQL'],
   },
   {
     name: 'Blogs API',
