@@ -61,7 +61,7 @@ function ContactForm() {
         type="submit"
         className="custom-button"
       >
-        Send email
+        Send message
       </button>
     </form>
   );
